@@ -11,7 +11,7 @@
 > - WebAuthn is U2F
 > - U2F is FIDO2
 
-:::
+::: notes
 
 It's really very simple...
 
@@ -24,7 +24,7 @@ It's really very simple...
 > - You use a private key to prove ownership over a public key.
 > - The website has _no_ secrets to keep
 
-:::
+::: notes
 
 If you've ever used SSH keys, FIDO is the same concept but applied to browsers. And all these other technologies are built on top of FIDO
 
@@ -83,11 +83,13 @@ If you've ever used SSH keys, FIDO is the same concept but applied to browsers. 
 }
 ```
 
-:::
+::: notes
 
 This is what is actually sent to the authenticator.
 
 It will sign the challange with the corresponding public key and return the signature
+
+Since the payload includes the origin, you can't MITM the challenge
 
 :::
 
@@ -108,7 +110,7 @@ It will sign the challange with the corresponding public key and return the sign
 }
 ```
 
-:::
+::: notes
 
 This is the payload returned to the site. The clientDataJSON and the signature are the important parts
 
