@@ -208,9 +208,49 @@ Dual signatures is not well supported yet, but functionality is planned for most
 
 # Support
 
+## OS Support
+
+- All major OSes have some support for Passkeys
+- Mostly dependent on what browser being used
+- Linux is the least supported, requiring external hardware
+
 ## Browsers
 
 > https://passkeys.dev/device-support/
+
+## Supported Websites
+
+https://passkeys.directory/
+
+## Supported Websites
+
+- Amazon
+- Apple
+- Github
+- Google
+- Microsoft
+
+## Supported Websites
+
+- Coinbase
+- DocuSign
+- Ebay
+- PayPal
+- Tailscale
+
+## Supported Websites
+
+- PlayStation
+- Nintendo
+- TikTok
+- OnlyFans
+
+## Password Managers
+
+- BitWarden
+- Recently launch for devices
+
+- 1Password
 
 # Resources
 
