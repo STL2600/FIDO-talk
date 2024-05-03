@@ -210,7 +210,12 @@ Dual signatures is not well supported yet, but functionality is planned for most
 
 ## Browsers
 
-> https://passkeys.dev/device-support/
+> - https://passkeys.dev/device-support/
+> - Windows & Mac are fully supported on all browsers
+> - Linux has basic FIDO support
+> - iOS and Android have full support
+
+##
 
 # Resources
 
