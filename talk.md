@@ -210,9 +210,17 @@ Dual signatures is not well supported yet, but functionality is planned for most
 
 ## OS Support
 
-- All major OSes have some support for Passkeys
-- Mostly dependent on what browser being used
-- Linux is the least supported, requiring external hardware
+> - https://www.passkeys.io/compatible-devices
+> - All Major OSes have some level of support
+> - Linux being the least supported
+
+## Mobile OS Support
+
+![](static/os-support-2.png)
+
+## Desktop OS Support
+
+![](static/os-support-3.png)
 
 ## Browsers
 
@@ -263,9 +271,59 @@ https://passkeys.directory/
 ## Password Managers
 
 - BitWarden
-- Recently launch for devices
-
 - 1Password
+- Lastpass
+- Probably most others
+
+# Security Considerations
+
+Well this sounds full proof!
+
+::: notes
+
+There's always room for mistakes during implementation
+
+:::
+
+## WebAuthn
+
+> - Supports RSA with PKCS1v1.5 Padding
+> - Has had attacks for at least 20 years
+> - But is difficult to exploit in this context
+> - More secure padding schemes available
+
+## WebAuthn
+
+> - Standardized on ESDAA for attestation
+> - THe particular curve chosen has some security deficits
+
+
+## Password Managers
+
+> - There's always a risk putting everything together
+> - Still better than a bunch of easy passwords
+
+## Downgrade Attacks
+
+> - Most sites allow for alternative MFA methods
+> - Having alternative methods provides both risk and redundancy
+> - Is not a fault of FIDO2 itself
+
+## Hardware Failure
+
+- Broken phone
+- Broken hardware key
+- Disk Failure
+
+## Phishing and MitM Attacks
+
+![](static/evilginx.png)
+
+## Phishing and MitM Attacks
+
+- Human beings are still the weakest link
+- Can't capture the passkey credentials
+- You can still capture a session cookie
 
 # Resources
 
