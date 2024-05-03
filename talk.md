@@ -202,8 +202,6 @@ This is the payload returned to the site. The clientDataJSON and the signature a
 
 ::: notes
 
-[White paper](https://fidoalliance.org/wp-content/uploads/2022/03/How-FIDO-Addresses-a-Full-Range-of-Use-Cases-March24.pdf)
-
 Dual signatures is not well supported yet, but functionality is planned for most systems
 
 :::
@@ -213,6 +211,12 @@ Dual signatures is not well supported yet, but functionality is planned for most
 ## Browsers
 
 > https://passkeys.dev/device-support/
+
+# Resources
+
+- [FIDO Specs Archive](https://fidoalliance.org/specifications/download/)
+- [WebAuthn](https://www.w3.org/TR/webauthn/#sctn-usecase-new-device-registration)
+- [Passkeys White Paper](https://fidoalliance.org/wp-content/uploads/2022/03/How-FIDO-Addresses-a-Full-Range-of-Use-Cases-March24.pdf)
 
 ---
 
