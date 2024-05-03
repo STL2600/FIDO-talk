@@ -215,7 +215,17 @@ Dual signatures is not well supported yet, but functionality is planned for most
 > - Linux has basic FIDO support
 > - iOS and Android have full support
 
-##
+## Browsers
+
+![](static/support-info-1.png)
+
+## Browsers
+
+![](static/support-info-2.png)
+
+## Browsers
+
+![](static/support-info-3.png)
 
 # Resources
 
