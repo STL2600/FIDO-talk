@@ -204,19 +204,21 @@ This is the payload returned to the site. The clientDataJSON and the signature a
 
 [White paper](https://fidoalliance.org/wp-content/uploads/2022/03/How-FIDO-Addresses-a-Full-Range-of-Use-Cases-March24.pdf)
 
+Dual signatures is not well supported yet, but functionality is planned for most systems
+
 :::
 
-## Content Page 2
+# Support
 
-An important image
+## Browsers
 
-![](https://placekitten.com/g/200/300)
-
-# The End
+> https://passkeys.dev/device-support/
 
 ---
 
-Your Name <your@email>
+Robert Ward <robert@rtward.com>
+
+Joe Cathell <kamikazejoe@gmail.com>
 
 ![](static/qrcode.png)
 
